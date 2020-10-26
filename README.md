@@ -4,11 +4,11 @@
 
 
 ##### Team Members
-*KODALI POOJITHA - 19PA1A0574*
+***KODALI POOJITHA - 19PA1A0574***
 
-*POTTURI SARVANI - 19PA1A12A5*
+***POTTURI SARVANI - 19PA1A12A5***
 
-*POKURI MONICA RANI - 19PA1A05E1*
+***POKURI MONICA RANI - 19PA1A05E1***
 
 ###### Objective :
 **To make a bot that could help a customer who comes to a hotel, to give his order or receive the bill without waiting for any person to take it so that it doesn't create any inconvenience.**
