@@ -1,0 +1,8 @@
+body {
+    background-image: url("https://miro.medium.com/max/1200/1*Di3UqA7LfRqPxCmTS54EAA.png");
+    background-color: #cccccc; 
+    height: 500px; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
