@@ -16,6 +16,8 @@
 ###### Task of the bot :
 ***Our bot greets the customer who comes to a hotel and asks for his/her name. It displays the menu on clicking a button. It says to click add button to add the item and delete to delete it in the menu. After choosing what the customer he has to click the link (Rough link for now) through which he can pay the bill. After the money transfer it asks for the feedback (Since we at beginning level in learning javascript we haven't done what we thought exactly, we'll be making it better in coming days).***
 
+###### Flowchart :
+![](https://github.com/monicarani/project/blob/main/flowcharimg.jpeg)
 ###### Youtube Link of demo :
 
 ###### Our REPL Link of project:
