@@ -23,7 +23,11 @@ https://webpage1.monicarani.repl.co/
 
 ###### Links of resources we reffered online :
 https://www.w3schools.com/jsref/met_table_deleterow.asp
+
 https://www.w3schools.com/jsref/met_tablerow_insertcell.asp
+
 https://www.w3schools.com/css/css3_images.asp
+
 https://www.w3schools.com/cssref/pr_background-image.asp
+
 https://www.w3schools.com/JS/js_input_examples.asp
