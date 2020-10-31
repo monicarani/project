@@ -14,7 +14,7 @@
 ***To make a bot that could help a customer who comes to a hotel, to give his order or receive the bill without waiting for any person to take it so that it doesn't create any inconvenience.***
 
 ###### Task of the bot :
-***Our bot greets the customer who comes to a hotel and asks for his/her name. It displays the menu on clicking a button. It says to click add button to add the item and delete to delete it in the menu. After choosing what the customer he has to click the link (Rough link for now) through which he can pay the bill. After the money transfer it asks for the feedback (Since we at beginning level in learning javascript we haven't done what we thought exactly, we'll be making it better in coming days).***
+***Our bot greets the customer who comes to a hotel and asks for his/her name. It displays the menu according to time. It asks to type the order in the form of "ID OF RECIPE - QUANTITY ". After typing "done" , it shows the bill and provide a link to pay it (We are giving a rough link here). After the money transfer it asks for the feedback and thank the customer (Since we at the beginning level in learning javascript we did our best in this and try to improve further by learning more and with the experience we got now).***
 
 ###### Flowchart :
 ![](https://github.com/monicarani/project/blob/main/flowcharimg.jpeg)
