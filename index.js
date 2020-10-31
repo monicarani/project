@@ -4,23 +4,25 @@ var usermsg=document.getElementById("tomessage");
 var botmsg=document.getElementById("fromessage");
 var inmsg=document.getElementById("typemessage");
 
+//Data for the bot about the menu
 morning={1:{no:1,name:"Aloo Paratha",cost:30,quantity:0},2:{no:2,name:"Semiya Upma",cost:35,quantity:0},3:{no:3,name:"Masala Dosa",cost:25,quantity:0},4:{no:4,name:"Poori",cost:20,quantity:0},5:{no:5,name:"Idli(Sambar)",cost:20,quantity:0},6:{no:6,name:"Vada",cost:15,quantity:0},7:{no:7,name:"Ragi Rava Upma",cost:30,quantity:0},8:{no:8,name:"Rava Utappam",cost:35,quantity:0},9:{no:9,name:"Bread Omelette",cost:30,quantity:0},10:{no:10,name:"Green Salad",cost:30,quantity:0},11:{no:11,name:"Tea",cost:8,quantity:0},12:{no:12,name:"Coffee",cost:7,quantity:0}};
 afternoon={1:{no:1,name:"Veg Thali",cost:50,quantity:0},2:{no:2,name:"Veg Biryani",cost:45,quantity:0},3:{no:3,name:"Lemon Rice",cost:30,quantity:0},4:{no:4,name:"Tomato Rice",cost:30,quantity:0},5:{no:5,name:"Mushroom Biryani",cost:40,quantity:0},6:{no:6,name:"Naan-Butter Paneer Masala",cost:40,quantity:0},7:{no:7,name:"Non-Veg Thali",cost:60,quantity:0},8:{no:8,name:"One-pot Chicken Biryani",cost:65,quantity:0},9:{no:9,name:"Prawn Biryani",cost:70,quantity:0},10:{no:10,name:"Curd Rice",cost:30,quantity:0},11:{no:11,name:"Thumpsup",cost:15,quantity:0},12:{no:12,name:"Sprite",cost:15,quantity:0}};
 evening={1:{no:1,name:"Pav Bhaji",cost:30,quantity:0},2:{no:2,name:"Paneer Tikka",cost:30,quantity:0},3:{no:3,name:"Spring Rolls",cost:20,quantity:0},4:{no:4,name:"Gobi Manchurian",cost:30,quantity:0},5:{no:5,name:"Veg grilled Sandwich",cost:25,quantity:0},6:{no:6,name:"Chilli Babycorn",cost:25,quantity:0},7:{no:7,name:"Paneer naan Pizza",cost:35,quantity:0},8:{no:8,name:"Egg Pakora",cost:35,quantity:0},9:{no:9,name:"Fire Chicken",cost:40,quantity:0},10:{no:10,name:"Fish 65",cost:50,quantity:0},11:{no:11,name:"Tea",cost:8,quantity:0},12:{no:12,name:"Coffee",cost:7,quantity:0}};
 night={1:{no:1,name:"Tomato Soup",cost:30,quantity:0},2:{no:2,name:"Veg corn Soup",cost:30,quantity:0},3:{no:3,name:"Soya Salad",cost:35,quantity:0},4:{no:4,name:"Pulka-mixed vegetable curry",cost:40,quantity:0},5:{no:5,name:"Veg Thali",cost:50,quantity:0},6:{no:6,name:"Vegetable Pulao",cost:45,quantity:0},7:{no:7,name:"Chicken Fried Rice",cost:55,quantity:0},8:{no:8,name:"Non-veg Thali",cost:60,quantity:0},9:{no:9,name:"One-pot Mushroom Biryani",cost:50,quantity:0},10:{no:10,name:"Curd Rice",cost:30,quantity:0},11:{no:11,name:"Thumpsup",cost:15,quantity:0},12:{no:12,name:"Sprite",cost:15,quantity:0}};
 
-msgid=0;
+msgid=0;//To give id to each message so that it helps to append child easily
 var flag=true;
-step=1;
+step=1;//To know each step
 var time=new Date().getHours();
 
+//Main function that processes the input we give
 function work()
 {
     var name=inmsg.value;
     next(name);
     inmsg.value="";
 }
-
+//Makes the message we type appear on the screen and gives the response for it
 function next(msg)
 {
     msgs.innerHTML+=usermsg.outerHTML;
@@ -33,6 +35,7 @@ function next(msg)
     msgs.lastChild.childNodes[3].textContent=process(msg);
 }
 
+//According to the input it returns the message to be appeared on screen
 function process(input)
 {
     if(flag)
