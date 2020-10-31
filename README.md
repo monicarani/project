@@ -24,12 +24,12 @@ https://youtu.be/8FLjYfb6fuc
 https://webpage1.monicarani.repl.co/
 
 ###### Links of resources we reffered online :
-https://www.w3schools.com/jsref/met_table_deleterow.asp
+https://stackoverflow.com/questions/1216114/how-can-i-make-a-div-stick-to-the-top-of-the-screen-once-its-been-scrolled-to
 
-https://www.w3schools.com/jsref/met_tablerow_insertcell.asp
+https://www.edureka.co/community/82408/how-to-open-a-url-in-a-new-tab-using-javascript-or-jquery
 
-https://www.w3schools.com/css/css3_images.asp
+https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute
 
-https://www.w3schools.com/cssref/pr_background-image.asp
+https://www.w3schools.com/jsref/jsref_split.asp
 
-https://www.w3schools.com/JS/js_input_examples.asp
+https://www.w3schools.com/jsref/met_node_appendchild.asp
