@@ -1,3 +1,4 @@
+<!--This is the html file of the bot-->
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -9,9 +10,11 @@
         <link rel="icon" type="image/jpg" href="https://p7.hiclipart.com/preview/151/368/987/table-computer-icons-restaurant-dinner.jpg">
     </head>
     <body>
+	<!--This is the payment link appears after showing bill-->
         <div id="payment">
             <a href="https://JSS.poojithakodali.repl.co" target="_blank">CLICK ON ME TO PAY</a>
         </div>
+	<!--This contains the block where bot welcomes customer to the hotel-->
         <div class="header">
             <img class="mainimg" src="https://st2.depositphotos.com/3577609/11835/v/950/depositphotos_118355644-stock-illustration-restaurant-logo-design.jpg" alt="mainimg">
             <h3>Hiii...</h3>
@@ -25,6 +28,7 @@
 			<a href="#main">SCROLL DOWN</a> 
 		</div>
         <div id="main">
+	    <!--This is the messages section-->
             <div id="messagebox">
                 <div id="fromessage" class="fromessage">
                     <img class="botimg" src="https://ascend.digital/wp-content/uploads/Restaurant-Chatbot.jpg" alt="bot">
@@ -44,6 +48,7 @@
                     </div>
                 </div>
             </div>
+	    <!--This the place where we can type our message-->
             <input id="typemessage" type="text" onkeydown="if(event.keyCode===13){work()}">
             <button id="button" onclick="work()">send</button>
         </div>
