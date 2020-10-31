@@ -17,9 +17,9 @@
 ***Our bot greets the customer who comes to a hotel and asks for his/her name. It displays the menu according to time. It asks to type the order in the form of "ID OF RECIPE - QUANTITY ". After typing "done" , it shows the bill and provide a link to pay it (We are giving a rough link here). After the money transfer it asks for the feedback and thank the customer (Since we at the beginning level in learning javascript we did our best in this and will try to improve it further by learning more and with the experience we got now).***
 
 ###### Flowchart :
-![](https://github.com/monicarani/project/blob/main/flowcharimg.jpeg)
+![](https://github.com/monicarani/project/blob/main/botflowchat.jpeg)
 ###### Youtube Link of demo :
-https://youtu.be/8FLjYfb6fuc
+
 ###### Our REPL Link of project:
 https://webpage1.monicarani.repl.co/
 
